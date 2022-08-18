@@ -376,7 +376,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./Users/deelooow3/NFT-Collection/my-app/public/StOLenGudz/3.png" />
+          <img className={styles.image} src="./my-app/public/StOLenGudz/10.svg" />
         </div>
       </div>
 
