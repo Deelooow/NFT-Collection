@@ -11,6 +11,6 @@ export default function handler(req, res) {
     res.status(200).json({
       name: "StOLen Gudz #" + tokenId,
       description: "Its an NFT collection by Deelooow, coming soon.",
-      image: image_url + tokenId + ".png",
+      image: image_url + tokenId + ".svg",
     });
   }
