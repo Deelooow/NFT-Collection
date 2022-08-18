@@ -16,8 +16,8 @@
 }
 
 .image {
-  width: 70%;
-  height: 50%;
+  width: 50%;
+  height: 30%;
   margin-left: 20%;
 }
 
@@ -40,7 +40,7 @@
   font-size: 15px;
   padding: 20px;
   width: 200px;
-  cursor: pointer;
+  cursor: grabbing;
   margin-bottom: 2%;
 }
 @media (max-width: 1000px) {
