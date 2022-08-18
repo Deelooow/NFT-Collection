@@ -45,7 +45,7 @@ export default function Home() {
       // wait for the transaction to get mined
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Crypto Dev!");
+      window.alert("You successfully StOLe some GUDZ!");
     } catch (err) {
       console.error(err);
     }
@@ -75,7 +75,7 @@ export default function Home() {
       // wait for the transaction to get mined
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Crypto Dev!");
+      window.alert("You successfully StOLe some GUDZ!");
     } catch (err) {
       console.error(err);
     }
@@ -338,7 +338,7 @@ export default function Home() {
         <div>
           <div className={styles.description}>
             Presale has started!!! If your address is whitelisted, Mint a
-            Crypto Dev 🥳
+            StOLeN Gudz 🥳
           </div>
           <button className={styles.button} onClick={presaleMint}>
             Presale Mint 🚀
@@ -360,7 +360,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Crypto Devs</title>
+        <title>StOLeNGudz</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -376,7 +376,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./StOLenGudz/3.png" />
+          <img className={styles.image} src="./StOLeNGudz/3.png" />
         </div>
       </div>
 
